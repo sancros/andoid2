@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="suprunenko.andoid2.StartUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/tfUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="User Name" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tfUserName"
+            android:layout_alignStart="@+id/tfUserName"
+            android:layout_below="@+id/tfUserName"
+            android:layout_marginTop="22dp"
+            android:text="Log In" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnLogIn"
+            android:layout_alignStart="@+id/btnLogIn"
+            android:layout_below="@+id/btnLogIn"
+            android:layout_marginTop="21dp"
+            android:text="Register" />
+    </RelativeLayout>
+
+</FrameLayout>
